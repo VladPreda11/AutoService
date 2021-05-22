@@ -5,6 +5,7 @@ afișat în consolă, prin intermediul căruia se vor realiza operațiile legate
 mașini, astfel:
 
 I. Angajați
+
 Există 3 tipuri de angajați: Director, Mecanic și Asistent. Toti angajații au în comun câmpurile ID, Nume,
 Prenume, Data Nașterii, Data Angajării și Coeficient salariat.
 Se vor implementa următoarele funcționalități: Afișare angajați, Adăugare angajat, Ștergere angajat,
@@ -21,6 +22,7 @@ introducerea ID-ului.
 - Calculul salariului se face dupa formula Ani vechime * coeficient * 1000 lei.
 
 II. Mașini
+
 Există 3 tipuri de mașini: Standard, Autobuz și Camion. Toate mașinile au în comun câmpurile ID,
 Numărul de kilometri, Anul fabricației și un indicator dacă este motor Diesel sau nu. Fiecare tip de
 mașină în parte are următoarele specificații:
@@ -47,6 +49,7 @@ Formula poate fi apelată standard, sau în modul DISCOUNT, care înseamnă: o r
 mașinile standard, de 10% pentru autobuze și de 15% pentru camioane.
 
 III. Activitatea Atelierului
+
 Într-un atelier pot lucra mai mulți angajați, care pot repara mai multe tipuri de mașini, având
 următoarele restricții:
 1. Trebuie să existe cel puțin un angajat pentru ca atelierul să poată fi considerat deschis.
